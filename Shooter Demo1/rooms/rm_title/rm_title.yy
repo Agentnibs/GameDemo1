@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_4430CC96","id": "1fc189b7-123c-47c7-aa67-dc22092d27ed","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4430CC96","objId": "177795c4-0bbe-437d-b0b2-8aa1d3e7211f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 512,"y": 320}
+{"name": "inst_4430CC96","id": "1fc189b7-123c-47c7-aa67-dc22092d27ed","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4430CC96","objId": "177795c4-0bbe-437d-b0b2-8aa1d3e7211f","properties": null,"rotation": 0,"scaleX": 0.4375,"scaleY": 0.4166667,"mvc": "1.0","x": 512,"y": 724.3334}
             ],
             "layers": [
 
@@ -49,7 +49,7 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "hspeed": -0.5,
+            "hspeed": 0,
             "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -62,14 +62,14 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "4687d3d9-8a44-4520-a15a-fae40243f90a",
+            "spriteId": "4850fa43-1ff4-45fa-9717-e0d68c8fe386",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
             "vtiled": true,
-            "x": 0,
+            "x": -205,
             "y": 0
         }
     ],
