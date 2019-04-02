@@ -15,3 +15,24 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 
 
 cooldown = cooldown - 1; 
+
+if (invincibleTime > 0) {
+	invincibleTime--;
+	}
+
+
+if blendtime>0{
+blendtime-=1;}
+else{blend=image_blend;}
+
+
+if (lives = 0) 
+{
+game_restart();	
+}
+
+//if (playerlives != 3) {
+	
+//	invincibleTime = invincibleTime - 1
+
+//}
