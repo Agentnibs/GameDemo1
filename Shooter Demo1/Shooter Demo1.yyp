@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3d5f21c4-0823-4ba4-a91b-ce7aad9a2f7d",
+            "Value": {
+                "id": "b9a3379e-fb23-4a88-a473-9cf739328d5a",
+                "resourcePath": "views\\3d5f21c4-0823-4ba4-a91b-ce7aad9a2f7d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "463ddba6-2ac3-4f1b-a33f-60ccd5c21b4b",
             "Value": {
                 "id": "5d713114-7aeb-4a61-9299-a7ba8cd5889e",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "9675c619-4c39-4a7a-a52a-ff1d25d925d9",
+            "Value": {
+                "id": "857286c2-04f3-4d87-ab93-57369aac54aa",
+                "resourcePath": "objects\\oMenu\\oMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6407136-4c0c-4d90-9057-d4d75cfa6bb6",
             "Value": {
                 "id": "6a4a4a20-f8e7-4964-b578-ca3755f06865",
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "b7e95d82-41a5-45a3-a5ee-09c7c831ea3b",
+            "Value": {
+                "id": "50f17b25-6b06-4878-a596-139b1cc38418",
+                "resourcePath": "sounds\\snd_MenuMove\\snd_MenuMove.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b8f84ee9-9e08-4e35-aedf-509832caf2c9",
             "Value": {
                 "id": "d3917824-06e8-4f5a-b378-151d57be5b8b",
@@ -355,6 +379,14 @@
             "Value": {
                 "id": "19a76ea9-09f2-41c2-adb6-70bc6c19088e",
                 "resourcePath": "views\\bb92b1bb-1579-484e-a822-f648e516ad6e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "be4d4a2f-42ac-4f6b-b485-b194fc454bf0",
+            "Value": {
+                "id": "89335370-98d0-4695-acde-5a7567b3f4a7",
+                "resourcePath": "views\\be4d4a2f-42ac-4f6b-b485-b194fc454bf0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -460,6 +492,14 @@
                 "id": "b6bd8aea-5782-4b72-8e68-675519ab34c3",
                 "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "ecfcfb4a-a915-4358-9283-f30130906326",
+            "Value": {
+                "id": "0e32b581-afb4-4070-8c13-3fc265a72acf",
+                "resourcePath": "views\\ecfcfb4a-a915-4358-9283-f30130906326.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],

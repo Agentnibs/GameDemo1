@@ -8,7 +8,7 @@ if (instance_exists(obj_player))
 if (cooldown = 0) {
 	
 instance_create_layer(x, y, "BulletsLayer", obj_enemyBullet3);
-cooldown = 3
+cooldown = 10
 }
 
 cooldown = cooldown -1;
