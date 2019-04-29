@@ -1,6 +1,8 @@
 // Setup Motion
 //direction = point_direction(x,y,mouse_x, mouse_y);
 
+
+
 var cw = camera_get_view_width(view_camera[0]);
 
 direction = point_direction(x,y,x, 0);
@@ -9,5 +11,5 @@ speed = 10;
 
 image_angle = direction;
 
-	audio_sound_pitch(snd_bullet, random_range(0.8,1.2))
-	audio_play_sound(snd_bullet, 0, 0);
+	audio_sound_pitch(snd_laser1, random_range(0.8,1.2))
+	audio_play_sound(snd_laser1, 0, 0);

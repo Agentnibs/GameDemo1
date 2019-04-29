@@ -6,7 +6,7 @@ lives = 3;
 
 playerlives = 3;
 
-
+upgradeValue = 0;
 
 invincibleTime = 240;
 
