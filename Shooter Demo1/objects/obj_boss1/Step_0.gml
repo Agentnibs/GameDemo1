@@ -1,15 +1,9 @@
-if (instance_exists(obj_player))
-{
-	move_towards_point(obj_player.x, obj_player.y, spd);
-}
-
-//image_angle = direction;
-
 if (cooldown = 0) {
 	
 instance_create_layer(x, y, "BulletsLayer", obj_enemyBullet1);
 cooldown = 60;
 }
+
 
 cooldown = cooldown -1;
 if (hp <= 0) {
@@ -19,4 +13,3 @@ if (hp <= 0) {
 	//instance_destroy();
 	instance_change(obj_explosion, true);
 }
-

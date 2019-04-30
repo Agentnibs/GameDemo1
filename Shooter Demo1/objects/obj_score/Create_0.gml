@@ -1,1 +1,1 @@
-theScore = 0; 
+global.theScore = 0; 

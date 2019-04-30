@@ -13,7 +13,7 @@ cooldown = 10
 
 cooldown = cooldown -1;
 if (hp <= 0) {
-	with (obj_score) theScore = theScore + 5;
+    global.theScore = global.theScore + 5; //with (obj_score)
 	audio_sound_pitch(snd_death, random_range(0.8,1.2))
 	audio_play_sound(snd_death, 0, 0);
 	instance_destroy();
