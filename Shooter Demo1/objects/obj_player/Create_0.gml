@@ -2,13 +2,12 @@
 // You can write your code in this editor
 cooldown = 0;
 
-lives = 3;
+hp = 280; //Seems to be around 3 bullet hits
 
-playerlives = 3;
 
-upgradeValue = 0;
+upgradeValue = 1;
 
 invincibleTime = 240;
 
-blend=image_blend
-blendtime=0;
+upgradeFlash = 0;
+damageFlash = 0;

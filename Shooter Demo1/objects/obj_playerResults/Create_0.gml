@@ -3,8 +3,6 @@ menu_y = y-80;
 results_h = 80; 
 
 
-
-
 //results
 results[0] = "GOOD JOB!" ;
 results[1] = "Score:  " +  string(global.theScore);
