@@ -1,7 +1,7 @@
-if (instance_exists(obj_player))
-{
-	move_towards_point(obj_player.x, obj_player.y, spd);
-}
+//if (instance_exists(obj_player))
+//{
+//	move_towards_point(obj_player.x, obj_player.y, spd);
+//}
 
 //image_angle = direction;
 
@@ -13,7 +13,7 @@ cooldown = 120;
 
 cooldown = cooldown -1;
 if (hp <= 0) {
-	global.theScore = global.theScore + 5; //with (obj_score)
+	global.theScore = global.theScore + 100; //with (obj_score)
 	audio_sound_pitch(snd_enemyDeath, random_range(0.8,1.2))
 	audio_play_sound(snd_enemyDeath, 0, 0);
 	//instance_destroy();
