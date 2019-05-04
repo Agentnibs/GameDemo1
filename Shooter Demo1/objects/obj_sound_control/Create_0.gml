@@ -1,0 +1,1 @@
+audio_play_sound(snd_nes_boss,1,true);

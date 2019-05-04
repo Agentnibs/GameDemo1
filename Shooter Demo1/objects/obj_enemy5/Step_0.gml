@@ -8,7 +8,7 @@
 if (cooldown = 0) {
 	
 instance_create_layer(x, y, "BulletsLayer", obj_enemyBullet1);
-cooldown = 60;
+cooldown = 150;
 }
 
 cooldown = cooldown -1;

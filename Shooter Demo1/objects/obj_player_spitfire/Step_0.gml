@@ -31,7 +31,7 @@ if (global.player_hp <= 0) {
 if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 1)
 {
 	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
-	cooldown = 10;
+	cooldown = 15;
 }
 
 
@@ -40,29 +40,29 @@ if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 2)
 {
 	instance_create_layer(x-15, y, "BulletsLayer", obj_bullet);
 	instance_create_layer(x+15, y, "BulletsLayer", obj_bullet);
-	cooldown = 10;
+	cooldown = 14;
 }
 
 //bullet upgrade 2
 if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 3)
 {
-	instance_create_layer(x-35, y, "BulletsLayer", obj_bullet);
+	instance_create_layer(x-35, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
-	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet);
-	cooldown = 10;
+	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet_blue);
+	cooldown = 13;
 }
 
 //bullet upgrade 3
 if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue >= 4)
 {
 	instance_create_layer(x-50, y, "BulletsLayer", obj_bulletLeft);
-	instance_create_layer(x-35, y, "BulletsLayer", obj_bullet);
+	instance_create_layer(x-35, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x-5, y, "BulletsLayer", obj_bullet);
-	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
+	instance_create_layer(x, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x+5, y, "BulletsLayer", obj_bullet);
-	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet);
+	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x+50, y, "BulletsLayer", obj_bulletRight);
-	cooldown = 10;
+	cooldown = 12;
 }
 
 

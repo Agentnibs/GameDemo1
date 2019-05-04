@@ -5,7 +5,7 @@
     "name": "pth_enemy4",
     "closed": false,
     "hsnap": 0,
-    "kind": 1,
+    "kind": 0,
     "points": [
         {
             "id": "51ecf9ad-a86d-4827-9f04-8a9317f46111",
@@ -21,6 +21,14 @@
             "mvc": "1.0",
             "x": 512,
             "y": 896,
+            "speed": 100
+        },
+        {
+            "id": "b20624fb-46f2-448e-b429-f6dcd9a250a1",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 512,
+            "y": 928,
             "speed": 100
         }
     ],
