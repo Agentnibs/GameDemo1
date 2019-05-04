@@ -1,5 +1,5 @@
 /// @description Spawn Player
-global.playerLives = 1; 
+global.playerLives = 2; 
 global.theScore = 0; 
 global.upgradeValue = 1;
 
