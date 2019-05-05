@@ -11,7 +11,8 @@ image_angle = point_direction(x,y, x, y);
 if (global.player_hp <= 0) {
 	
 	if (global.playerLives <= 0) {
-	room_goto(rm_gameover)
+	audio_stop_all();
+	room_goto(rm_gameover);
 	
 	}
 	

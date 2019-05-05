@@ -11,8 +11,9 @@ switch(menu_index){
 	break;
 	
 	case(1):
-	debug_event("Load Game")
+	debug_event("View Highscores")
 	audio_play_sound(snd_select,1,false)
+	room_goto(rm_highscores);
 	break;
 	
 	case(2):
