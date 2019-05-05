@@ -20,8 +20,8 @@ if (global.player_hp <= 0) {
 	audio_sound_pitch(snd_enemyDeath, random_range(0.8,1.2))
 	audio_play_sound(snd_enemyDeath, 0, 0);
 	//instance_destroy();
-	instance_change(obj_explosion, true);
-	instance_create_layer(511, 611, "Instances", obj_player_spawner);
+	instance_change(obj_player_explosion, true);
+	//instance_create_layer(511, 611, "Instances", obj_player_spawner);
 
 	}
 }

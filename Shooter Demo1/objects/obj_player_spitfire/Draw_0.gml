@@ -11,8 +11,8 @@ if (upgradeFlash > 0){
 	gpu_set_blendmode(bm_add);
 	
 	shader_set(shd_UpgradeFlash);
-	shd_alpha = shader_get_uniform(shd_UpgradeFlash, "_alpha");
-	shader_set_uniform_f(shd_alpha,upgradeFlash);
+	shd_alphaU = shader_get_uniform(shd_UpgradeFlash, "_alpha");
+	shader_set_uniform_f(shd_alphaU,upgradeFlash);
 	
 	draw_self();
 	
@@ -29,9 +29,9 @@ if (damageFlash > 0){
 	
 	gpu_set_blendmode(bm_add);
 	
-	shader_set(shd_EnemyFlash);
-	shd_alpha = shader_get_uniform(shd_EnemyFlash, "_alpha");
-	shader_set_uniform_f(shd_alpha,damageFlash);
+	shader_set(shd_playerDamage);
+	shd_alphaD = shader_get_uniform(shd_playerDamage, "_alpha");
+	shader_set_uniform_f(shd_alphaD,damageFlash);
 	
 	draw_self();
 	

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1d6211bb-c600-48a2-932a-28400625b9c3",
+            "Value": {
+                "id": "5d0cadcc-15a3-4c60-840a-4fb24330f233",
+                "resourcePath": "shaders\\shd_playerDamage\\shd_playerDamage.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1d8a1992-8c88-4684-90e1-e66c882c2608",
             "Value": {
                 "id": "dd7a0c99-3392-4a48-bc53-e272cc5b6da7",
@@ -903,6 +911,14 @@
             }
         },
         {
+            "Key": "9218b4f3-a72b-48de-a35d-f3de87580c1b",
+            "Value": {
+                "id": "961c399e-bc1d-4213-9bf3-2ea88f29b18e",
+                "resourcePath": "objects\\obj_explosion_scale\\obj_explosion_scale.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92b1ba71-233e-4988-a5f2-5c06e704cde2",
             "Value": {
                 "id": "54a24c77-b187-4ede-9693-a85d6589a54b",
@@ -1263,6 +1279,14 @@
             }
         },
         {
+            "Key": "c6c85390-87f6-44ea-bdf3-1f7f7fefdd96",
+            "Value": {
+                "id": "5b57cc2e-541e-47b9-92cf-d4fe701664a3",
+                "resourcePath": "sprites\\spr_newExplosion\\spr_newExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca10e366-64c0-42ce-9eb0-4f67af694216",
             "Value": {
                 "id": "f3adcb53-654a-4552-8ac3-ec92dc8bb524",
@@ -1447,6 +1471,14 @@
             }
         },
         {
+            "Key": "df6cf8f6-37cc-412e-a5f7-0d2c252f8bca",
+            "Value": {
+                "id": "9566d83c-edf2-4c90-8fbb-7d83e3f41d51",
+                "resourcePath": "objects\\obj_player_explosion\\obj_player_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df8a836e-dee3-4601-985c-e1d61bf87707",
             "Value": {
                 "id": "ca9c8423-e9f2-43ff-9f70-4058da334d99",
@@ -1523,6 +1555,14 @@
             "Value": {
                 "id": "b7c4f5a0-d1d5-4075-9989-0808ad64177b",
                 "resourcePath": "objects\\obj_game_globals\\obj_game_globals.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ecc300b2-4407-46fb-bcc6-da41326c7238",
+            "Value": {
+                "id": "ab3f85a6-39a9-4152-bc6a-c4124de71ce7",
+                "resourcePath": "objects\\obj_boss_explosion\\obj_boss_explosion.yy",
                 "resourceType": "GMObject"
             }
         },
