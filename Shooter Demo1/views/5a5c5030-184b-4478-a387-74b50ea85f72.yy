@@ -10,7 +10,7 @@
         "e9d724af-fc88-4fad-98f2-9fe07e53ae17"
     ],
     "filterType": "GMPath",
-    "folderName": "Old Paths",
+    "folderName": "Level 1 Paths",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
