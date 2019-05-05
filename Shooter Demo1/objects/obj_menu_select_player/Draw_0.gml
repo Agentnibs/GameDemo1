@@ -2,7 +2,7 @@
 var i = 0
 repeat (buttons){
 	
-	draw_set_color(c_gray);
+	draw_set_color(c_white);
 	draw_set_font(fnt_Menu1)
 	draw_text(menu_x, menu_y ,button[0]);
 	draw_text(menu_x + 280, menu_y ,button[1]);

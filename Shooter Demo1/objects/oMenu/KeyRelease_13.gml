@@ -17,8 +17,9 @@ switch(menu_index){
 	break;
 	
 	case(2):
-	debug_event("Settings")
+	debug_event("View Controls")
 	audio_play_sound(snd_select,1,false)
+	room_goto(rm_controls);
 	break;
 	
 	case(3):

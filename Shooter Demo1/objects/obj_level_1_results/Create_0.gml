@@ -6,8 +6,8 @@ global.total_score = global.total_score + global.theScore;
 
 //results
 results[0] = "GOOD JOB!" ;
-results[1] = "Score:  " +  string(global.theScore);
-results[2] = "Total Score "  +  string(global.total_score);
+results[1] = "Score:  " +  string(global.total_score);
+//results[2] = "Total Score "  +  string(global.total_score);
 
 resultsLength = array_length_1d(results);
 

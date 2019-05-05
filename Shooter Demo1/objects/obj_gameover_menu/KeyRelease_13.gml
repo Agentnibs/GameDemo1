@@ -1,21 +1,23 @@
 /// @description 
 
-switch(menu_index){
+//game_restart();
+
+//switch(menu_index){
 	
-	case(0):
-	debug_event("New Game")
-	//game_restart();
-	global.playerLives = 2;
+//	case(0):
+//	debug_event("New Game")
+//	//game_restart();
+//	//global.playerLives = 2;
 	
-	room_goto(rm_player_select);
+//	//room_goto(rm_player_select);
 	
-	break;
+//	break;
 	
-	case(1):
-	game_restart();
-	break;
+//	case(1):
+//	game_restart();
+//	break;
 	
 	
-}
+//}
 	
 	

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp=2000;
+hp=3000;
 cooldown = 0;
 flash = 0;
 active = false;

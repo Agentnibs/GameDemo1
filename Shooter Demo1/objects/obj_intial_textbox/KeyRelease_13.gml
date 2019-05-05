@@ -2,15 +2,17 @@
 // You can write your code in this editor
 highscore_add(initials_txt, global.total_score);
 
-roomname = room_get_name(room);
+game_restart();
 
-if (roomname == "rm_level2end"){
-	room_goto(rm_title);
-}
+//roomname = room_get_name(room);
 
-else {
-	instance_create_layer(x, y+200, "Instances" ,obj_gameover_menu);	
-}
+//if (roomname == "rm_level2end"){
+//	room_goto(rm_title);
+//}
+
+//else {
+//	instance_create_layer(x, y+200, "Instances" ,obj_gameover_menu);	
+//}
 
 
 /// @description Insert description here
