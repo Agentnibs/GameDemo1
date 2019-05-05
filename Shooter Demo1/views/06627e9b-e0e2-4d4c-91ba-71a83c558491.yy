@@ -11,7 +11,7 @@
         "ca9b5f13-b0a5-4cfe-bf9e-a4d49f017d10"
     ],
     "filterType": "GMObject",
-    "folderName": "Basic Enemies",
+    "folderName": "Level Enemies",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

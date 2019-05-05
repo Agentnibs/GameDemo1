@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "363a9eca-e27f-441b-93a7-1b7be3823f0c",
+            "Value": {
+                "id": "f349067e-5613-4e59-a46f-b1b204630786",
+                "resourcePath": "rooms\\rm_level2end\\rm_level2end.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "36c4a739-df78-452a-8b20-cba8ffd8d321",
             "Value": {
                 "id": "1ee5b651-4e66-4e3c-8f96-c1b70175c3cc",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "69d6416f-cdb3-41ee-b139-333bb4fb47f8",
+            "Value": {
+                "id": "0e24297a-05fc-4a3c-81af-6138f431f98b",
+                "resourcePath": "paths\\pth_boss\\pth_boss.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "6a1fec97-48ea-4652-8ca9-93a60cc1f642",
             "Value": {
                 "id": "69d026fb-1655-4ded-971f-ef9a4d7a8d95",
@@ -666,7 +682,7 @@
             "Key": "7b9a34c9-9c3d-4266-96d1-5503a236a838",
             "Value": {
                 "id": "ba6b0f12-68dc-4ad7-88ae-98fa3517e1b0",
-                "resourcePath": "objects\\obj_music1\\obj_music1.yy",
+                "resourcePath": "objects\\obj_level1_powerbattle\\obj_level1_powerbattle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1063,6 +1079,14 @@
             }
         },
         {
+            "Key": "c5b5b429-7bb4-4165-9ba4-b8a330b4de82",
+            "Value": {
+                "id": "7b4524d6-f71a-408a-bfa9-18335b6cee51",
+                "resourcePath": "objects\\obj_boss2\\obj_boss2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca10e366-64c0-42ce-9eb0-4f67af694216",
             "Value": {
                 "id": "f3adcb53-654a-4552-8ac3-ec92dc8bb524",
@@ -1343,11 +1367,27 @@
             }
         },
         {
+            "Key": "f4261b78-6191-4272-95ee-bec0617d4004",
+            "Value": {
+                "id": "562c0e4a-000b-4640-a77c-1f5cda52e727",
+                "resourcePath": "objects\\obj_level2_hackerland\\obj_level2_hackerland.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f584c3e7-f6a3-4317-bf88-64758711b82f",
             "Value": {
                 "id": "58e874c3-0814-441c-aaa8-706bb5d37c62",
                 "resourcePath": "sprites\\spr_enemy1\\spr_enemy1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f78e8d26-26b8-4f15-9ad7-c3377199f1ab",
+            "Value": {
+                "id": "d4b571b2-c14e-4e0c-a36b-16aab11e7911",
+                "resourcePath": "objects\\obj_level_2_results\\obj_level_2_results.yy",
+                "resourceType": "GMObject"
             }
         },
         {

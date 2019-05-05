@@ -1,4 +1,4 @@
-hp = 3;
+hp = 5;
 spd = 1.5; 
 flash = 0;
 cooldown = 0;

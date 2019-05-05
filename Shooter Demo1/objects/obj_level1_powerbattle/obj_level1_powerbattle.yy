@@ -2,7 +2,7 @@
     "id": "7b9a34c9-9c3d-4266-96d1-5503a236a838",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_music1",
+    "name": "obj_level1_powerbattle",
     "eventList": [
         {
             "id": "388fe55b-47ee-4731-99cc-e9f5ae9f1923",
