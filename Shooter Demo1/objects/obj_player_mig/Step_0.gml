@@ -1,8 +1,8 @@
 //Movement
-if (keyboard_check(ord("D"))){x = x + 4;};
-if (keyboard_check(ord("A"))){x = x - 4;};
-if (keyboard_check(ord("W"))){y = y - 4;};
-if (keyboard_check(ord("S"))){y = y + 4;};
+if (keyboard_check(ord("D"))){x = x + 3;};
+if (keyboard_check(ord("A"))){x = x - 3;};
+if (keyboard_check(ord("W"))){y = y - 3;};
+if (keyboard_check(ord("S"))){y = y + 3;};
 
 image_angle = point_direction(x,y, x, y);
 
@@ -31,7 +31,7 @@ if (global.player_hp <= 0) {
 if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 1)
 {
 	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
-	cooldown = 15;
+	cooldown = 14;
 }
 
 
@@ -40,7 +40,7 @@ if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 2)
 {
 	instance_create_layer(x-15, y, "BulletsLayer", obj_bullet);
 	instance_create_layer(x+15, y, "BulletsLayer", obj_bullet);
-	cooldown = 14;
+	cooldown = 13;
 }
 
 //bullet upgrade 2
@@ -49,7 +49,7 @@ if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue == 3)
 	instance_create_layer(x-35, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
 	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet_blue);
-	cooldown = 13;
+	cooldown = 12;
 }
 
 //bullet upgrade 3
@@ -62,7 +62,7 @@ if (mouse_check_button(mb_left)) && (cooldown < 1) && (global.upgradeValue >= 4)
 	instance_create_layer(x+5, y, "BulletsLayer", obj_bullet);
 	instance_create_layer(x+35, y, "BulletsLayer", obj_bullet_blue);
 	instance_create_layer(x+50, y, "BulletsLayer", obj_bulletRight);
-	cooldown = 12;
+	cooldown = 11;
 }
 
 

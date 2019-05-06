@@ -2,7 +2,7 @@
 
 //bullet cooldown
 cooldown = 0;
-global.player_hp = 50; 
+global.player_hp = 30; 
 
 //upgrades
 //upgradeValue = 1;

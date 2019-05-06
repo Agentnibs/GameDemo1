@@ -4,7 +4,7 @@ repeat (resultsLength){
 	draw_set_color(c_white);
 
 	draw_set_font(fnt_newMenu)
-	draw_text(obj_level_2_results.x, obj_level_2_results.y + results_h * i,results[i]);
+	draw_text(x, y + results_h * i,results[i]);
 
 	i++;
 }
