@@ -1,0 +1,1 @@
+delay = room_speed *2; 
