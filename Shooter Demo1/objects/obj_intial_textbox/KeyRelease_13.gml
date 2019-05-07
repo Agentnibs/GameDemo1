@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (initials_txt == ""){
+	initials_txt = "AAA";
+}
+
 highscore_add(initials_txt, global.total_score);
+
 
 game_restart();
 
